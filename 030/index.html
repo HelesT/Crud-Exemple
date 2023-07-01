@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css" type="text/css">
+</head>
+<body>
+    <span>Agenda</span>
+    <form  action="crud.php" method="post">
+    <input type="text" placeholder="Nome" name="nome">
+    <input type="text" placeholder="E-mail" name="email">
+    <input type="text" placeholder="Telefone" name="telefone">
+    <div class="inserir_excluir">
+        <button name="enviar"><img src="enviar.png" width="25px"></button>
+        <button name="excluir"><img src="excluir.png" width="20px"></button>
+    </div>
+    </form>
+    <a href="Editar.html" class="botao_editar"><img src="proximo.png" width="50px"></a>
+    <a href="lista.php" class="botao_lista"><img src="anterior.png" width="50px"></a>
+</body>
+</html>
